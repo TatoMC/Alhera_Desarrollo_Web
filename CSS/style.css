@@ -1,0 +1,749 @@
+@import url('reset.css');
+@import url('fuentes.css');
+
+/*--- Estilos Generales---*/
+.link:hover{
+    color: #fbff22;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+	margin:0;
+	min-height: 100vh;
+	background-image: url(../Imagenes/city.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+body:before {
+	content: "";
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(63,136,143,1), white);
+	opacity: 0.5;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+/*---Quita el subrayado y muestra el color blanco---*/
+a:hover{
+    text-decoration: none;
+    color: #ffffff;
+   
+}
+#wrap {
+    width: 80%;
+    max-width: 1020px;
+    margin: auto;
+    clear: both;
+    min-height: 77.2%;
+}
+
+/*---HEADER---*/
+header {
+    width: 100%;
+    float: left;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#474545+1,2a2a2a+100 */
+    background: #008080; /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(71,69,69,1) 1%, rgba(0,128,128,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(71,69,69,1) 1%,rgba(0,128,128,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(71,69,69,1) 1%,rgba(0,128,128,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#474545', endColorstr='#2a2a2a',GradientType=0 ); /* IE6-9 */
+    box-shadow: 0px 3px 5px #000000;
+        -moz-box-shadow: 0px 3px 5px #000000;
+        -webkit-box-shadow: 0px 3px 5px #000000;
+    position: absolute;
+}
+
+#subheader {
+    width: 80%;
+    max-width: 1020px;
+    margin: auto;
+}
+
+#Logotipo {
+    width: 20%;
+    padding: 1% 0%;
+    display: inline-block;
+}
+/*---LOGOTOTIPO LA EMPRESA---*/
+#Logo1{
+    width: 40%;
+    height: 20%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+}
+/*---NOMBRE DE LA EMPRESA---*/
+#Logo2{
+    width: 75%;
+    height: 90%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+}
+
+/*---LETRAS INICIALES DE LA EMPRESA NO SE ENCUENTRA YA EN LA PAGINA---*/
+#A {
+    color: #1293cf;
+    font-family: califormia-bold;
+    font-size: 70px;
+    display: inline;
+}
+
+#amperson {
+    font-family: califormia-bold;
+    font-size: 70px;
+    display: inline;
+}
+
+#H {
+    color: #c41c1c;
+    font-family: califormia-bold;
+    font-size: 70px;
+    display: inline;
+}
+
+/*---NO SE ENCUENTRA EN LA PAGINA---*/
+#subheader h1{
+    font-size: 45px;
+    font-family: Aureligena;
+}
+/*---TIPO DE LETRA Y TAMA�O DE LA PARTE DE ENCABEZADO---*/
+#subheader h3{
+    font-family: califormia;
+    font-size: 18px;
+}
+/*---SE ENCUENTRA EN LA PARTE DE ENCABEZADO DE LA PAGINA EN HEADER---*/
+#titulo {
+    float: right;
+    width: 70%;
+    padding: 20px 0px;
+    text-align: right;
+    display: inline-block;
+    width: 60%;
+    height: 40%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+}
+
+#ingreso{
+    float: right;
+    width: 70%;
+    padding: 5px 0px 10px 0px;
+    text-align: right;
+    display: inline-block;
+    width: 50%;
+    height: 5%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+}
+
+/*---MAIN---*/
+main {
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+    float: left;
+}
+/*---SE UTILIZA EN LA PAGINA DE INDEX EN EL CUERPO DE LA PAGINA DENTRO DE MAIN---*/
+#Nosotros {
+	top: 9em;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+/*---SE UTILIZA EN LA PAGINA DE INDEX DENTRO DE LA FOTO DE LA PAGINA PRINCIPAL---*/
+#textoNosotros {
+    width: 74%;
+    height: 40%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#194d65+1,363636+84&0.8+0,0.8+100 */
+    background: -moz-linear-gradient(top, rgba(0,128,128,1) 0%, rgba(0,128,128,1) 1%, rgba(0,128,128,1) 84%, rgba(54,54,54,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(25,77,101,0.8) 0%,rgba(25,77,101,0.8) 1%,rgba(54,54,54,0.8) 84%,rgba(54,54,54,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(25,77,101,0.8) 0%,rgba(25,77,101,0.8) 1%,rgba(54,54,54,0.8) 84%,rgba(54,54,54,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc194d65', endColorstr='#cc363636',GradientType=0 ); /* IE6-9 */
+    padding: 1%;
+    position: absolute;
+    top: 60%;
+    left: 13%;
+    z-index: 2;
+    
+}
+/*---SE PRETENDIA UTILIZAR EN LA PAGINA INDEX---*/
+#textoNosotros1 {
+    width: 43%;
+    height: auto;
+    min-height: 20vh;
+    margin: 1% 2% 1% 7%;
+    float: left;
+    padding: 2%;
+    position: absolute;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#194d65+1,363636+84&0.8+0,0.8+100 */
+    background: -moz-linear-gradient(top, rgba(25,77,101,0.8) 0%, rgba(25,77,101,0.8) 1%, rgba(54,54,54,0.8) 84%, rgba(54,54,54,0.8) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(25,77,101,0.8) 0%,rgba(25,77,101,0.8) 1%,rgba(54,54,54,0.8) 84%,rgba(54,54,54,0.8) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(25,77,101,0.8) 0%,rgba(25,77,101,0.8) 1%,rgba(54,54,54,0.8) 84%,rgba(54,54,54,0.8) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc194d65', endColorstr='#cc363636',GradientType=0 ); /* IE6-9 */    
+    z-index: 1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA INDEX LA PAGINA PRINCIPAL DENTRO DEL MAIN---*/
+#Abogados {
+    width: 74%;
+    height: 50%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA INDEX2 LA PAGINA PRINCIPAL DENTRO DEL MAIN---*/
+#Abogados1 {
+    width: 60%;
+    height: 40%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA CONTACTO DENTRO DE MAIN, SE UTILIZA PARA TAMA�O DE LA IMAGEN---*/
+#Abogados-1 {
+    width: 16%;
+    height: 40%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA CONTACTO DENTRO DE MAIN, SE UTILIZA PARA TAMA�O DE LA IMAGEN---*/
+#Abogados-2 {
+    width: 15%;
+    height: 40%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA CONTACTO DENTRO DE MAIN, SE UTILIZA PARA TAMA�O DE LA IMAGEN---*/
+#Abogados-3 {
+    width: 19%;
+    height: 40%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTILIZA EN LA PAGINA CONTACTO DENTRO DE MAIN, SE UTILIZA PARA TAMA�O DE LA IMAGEN---*/
+#Abogados-4 {
+    width: 28%;
+    height: 30%;
+    margin: 0% 0% 0% 0%;
+    z-index:1;
+    
+}
+/*---SE UTLIZA EN LA PAGINA INDEX2 DENTRO DE LA LA SECCION CENTRAL DE LA PAGINA
+SE UTULIZA PARA LA ALINEACION---*/
+#TextoN {
+    display: flex;
+  align-items: center;
+}
+/*---SE UTLIZA EN LA PAGINA INDEX2 DENTRO DE LA LA SECCION CENTRAL DE LA PAGINA
+SE UTULIZA PARA TAMA�O COLOR DEL RECUADRO, MARGEN, POSICION---*/
+#TextoNos{
+    background: #008080;
+    width: 43%;
+    height: auto;
+    min-height: 20vh;
+    margin: 1% 2% 1% 7%;
+    float: left;
+    padding: 2%;
+    position: absolute;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+/*---SE PRETENDIA UTILIZAR PARA INDEX3 NO SE UTILIZO---*/
+#TextoNos1{
+	top: 10em;
+	position: relative;
+    background: #008080;
+    width: 85%;
+    height: auto;
+    min-height: 20vh;
+    margin: 2% 1% 1% 7%;
+    float: left;
+    padding: 3%;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+/*---SE UTILIZA PARA PAGINA PRINCIPAL INDEX E INDEX2 PARA TAMA�O, ALINEACION Y COLOR---*/
+#MisionVision {
+    display: flex;
+  align-items: stretch;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O, MARGEN, COLOR DEL RECUADRO, PARA PAGINAS INDEX E INDEX2---*/
+#Vision{
+	top: 10em;
+	position: relative;
+    background: #008080;
+    width: 40%;
+    height: auto;
+    min-height: 20vh;
+    margin: 3% 1% 4% 1%;
+    float: left;
+    padding: 3%;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O, MARGEN, COLOR DEL RECUADRO, PARA PAGINAS INDEX E INDEX2---*/
+#Mision{
+	top: 10em;
+	position: relative;
+    background: #008080;
+    width: 40%;
+    min-height: 20vh;
+    margin: 3% 6% 4% 6%;
+    float: left;
+    padding: 3%;
+    border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O DE LETRA, TIPO DE LETRA Y ALINEACION---*/
+#Mision h4, #Vision h4 ,#textoNosotros h4, #TextoNos h4, #TextoNos1 h4,#textoNosotros1 h4{
+    font-family: califormia;
+    font-size: 30px;
+    text-align: center;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O DE LETRA, TIPO DE LETRA Y ALINEACION---*/
+#Mision p, #Vision p,#textoNosotros p, #TextoNos p, #TextoNos1 p, #textoNosotros1 p{
+    font-family: califormia;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+    text-align: justify;
+    text-justify: distribute;
+    text-align-last: left;*/
+    
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O COLOR, ES UTILIZADO PARA VARIAS SUBPAGINAS CON INFORMACION EN LA PARTE CENTRAL DE LA PANTALLA---*/
+#Cuadro {
+	top: 10em;
+	position: relative;
+    height: 96%;
+    background: #008080;
+    padding: 2% 2% 2% 2%;
+    margin: 1%;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O,TIPO DE LETRA, ALINEACION Y MARGEN, ES UTILIZADO PARA VARIAS SUBPAGINAS CON INFORMACION EN LA PARTE CENTRAL DE LA PANTALLA---*/
+#Cuadro H2 {
+    font-size: 50px;
+    font-family: califormia;
+    text-align: center;
+    margin: 3px;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O,TIPO DE LETRA, ALINEACION Y MARGEN, ES UTILIZADO PARA VARIAS SUBPAGINAS CON INFORMACION EN LA PARTE CENTRAL DE LA PANTALLA---*/
+#Cuadro h3 {
+    font-size: 20px;
+    font-family: califormia;
+    margin: 0.5%;
+}
+/*---AQUI SE PUEDE AJUSTAR TAMA�O,TIPO DE LETRA, ALINEACION Y MARGEN, ES UTILIZADO PARA VARIAS SUBPAGINAS CON INFORMACION EN LA PARTE CENTRAL DE LA PANTALLA---*/
+#Cuadro P {
+    font-size: 18px;
+    font-family: califormia;
+    margin: 3px;
+}
+/*---ES UTILIZADO PARA INFORMACION DE LA PAGINA---*/
+#Cuadro ol {
+    list-style: lower-alpha;
+    padding: 3%;
+}
+/*---ES UTILIZADO PARA INFORMACION DE LA PAGINA PARA MOSTRAR PUNTOS EN LA INFORMACION CENTRAL---*/
+#Cuadro ol li {
+    margin: 1%;;
+}
+/*---SE UTILIZA EN LA PAGINA DE CONTACTO PARA MOSTRAR EL TAMA�O DEL MAPA---*/
+#mapa {
+    width: 100%;
+}
+
+#imagen-1 {
+    width: 520px;
+    height: 700px;
+    object-fit: cover;
+    margin: 10px;
+    /*margin: 1% 1% 1% 1%;*/
+    z-index:1;
+    background-image: url(../Imagenes/AbogadoLaboral2.jpeg);
+   
+}
+
+/*---MUESTRA LAS IMAGENES DE LA PAGINA DE CONTACTO---*/
+
+#info {
+    position: absolute;
+    overflow: hidden;
+    width: 520px;  /*TAMA�O DE LAS IMAGENES*/
+    height: 700px;
+    background-color: rgba(31, 31, 31, 0.5);
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s; /*TRANSICIONES PARA VER EN CUALQUIER NAVEGADOR*/
+    -moz-transition: opacity 0.2s;
+    opacity: 0;
+    
+}
+
+#imagen-1:hover #info{
+    opacity: 1;
+}
+
+/*TEXTO DE LA IMAGENES*/
+
+#m1 {
+    position: absolute;
+    margin: 20px;
+    -webkit-transition: margin 0.2s;
+    -ms-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    margin-left: -70px;
+    font-size: 21px;   /*TAMA�O LETRA*/
+    color: #ffffff;  /*COLOR LETRA*/
+    
+
+}
+
+#imagen-1:hover #m1{
+    margin-left: 70px;   /*OPACIDAD DE LA IMAGEN*/
+}
+#t1 {
+    margin: auto;
+    width: 520px;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -ms-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    margin-top: 710px;
+    font-size: 21px;   /*TAMA�O LETRA*/
+    color: #ffffff;  /*COLOR LETRA*/
+
+}
+
+#imagen-1:hover #t1{
+    margin-top: 70px;
+}
+
+
+
+ #imagen-2 {
+    width: 520px;
+    height: 700px;
+    object-fit: cover;
+    margin: 10px;
+    /*margin: 1% 1% 1% 1%;*/
+    z-index:1;
+    background-image: url(../Imagenes/AbogadoLaboral3.jpeg);
+   
+}
+
+#info2 {
+    position: absolute;
+    overflow: hidden;
+    width: 520px;
+    height: 700px;
+    background-color: rgba(31, 31, 31, 0.5);
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    opacity: 0;
+    
+}
+
+#imagen-2:hover #info2{
+    opacity: 1;
+}
+
+#m2 {
+    position: absolute;
+    margin: 20px;
+    -webkit-transition: margin 0.2s;
+    -ms-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    margin-left: -70px;
+    font-size: 21px;
+
+}
+
+#imagen-2:hover #m2{
+    margin-left: 70px;
+}
+#t2 {
+    margin: auto;
+    width: 520px;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -ms-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    margin-top: 710px;
+   
+
+}
+
+#imagen-2:hover #t2{
+    margin-top: 70px;
+}
+
+
+#imagen-3 {
+    width: 520px;
+    height: 700px;
+    object-fit: cover;
+    margin: 10px;
+    /*margin: 1% 1% 1% 1%;*/
+    z-index:1;
+    background-image: url(../Imagenes/AbogadoGeneral2.jpeg);
+   
+}
+
+#info3 {
+    position: absolute;
+    overflow: hidden;
+    width: 520px;
+    height: 700px;
+    background-color: rgba(31, 31, 31, 0.5);
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    opacity: 0;
+    
+}
+
+#imagen-3:hover #info3{
+    opacity: 1;
+}
+
+#m3 {
+    position: absolute;
+    margin: 20px;
+    -webkit-transition: margin 0.2s;
+    -ms-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    margin-left: -70px;
+    font-size: 21px;
+
+}
+
+#imagen-3:hover #m3{
+    margin-left: 70px;
+}
+#t3 {
+    margin: auto;
+    width: 520px;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -ms-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    margin-top: 710px;
+   
+
+}
+
+#imagen-3:hover #t3{
+    margin-top: 70px;
+}
+
+
+#imagen-4 {
+    width: 520px;
+    height: 700px;
+    object-fit: cover;
+    margin: 10px;
+    /*margin: 1% 1% 1% 1%;*/
+    z-index:1;
+    background-image: url(../Imagenes/AbogadoFiscalyAdmin.jpeg);
+   
+}
+
+#info4 {
+    position: absolute;
+    overflow: hidden;
+    width: 520px;
+    height: 700px;
+    background-color: rgba(31, 31, 31, 0.5);
+    -webkit-transition: opacity 0.2s;
+    -ms-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+    opacity: 0;
+    
+}
+
+#imagen-4:hover #info4{
+    opacity: 1;
+}
+
+#m4 {
+    position: absolute;
+    margin: 20px;
+    -webkit-transition: margin 0.2s;
+    -ms-transition: margin 0.2s;
+    -moz-transition: margin 0.2s;
+    margin-left: -70px;
+    font-size: 21px;
+
+}
+
+#imagen-4:hover #m4{
+    margin-left: 70px;
+}
+#t4 {
+    margin: auto;
+    width: 520px;
+    text-align: center;
+    -webkit-transition: margin 0.3s;
+    -ms-transition: margin 0.3s;
+    -moz-transition: margin 0.3s;
+    margin-top: 710px;
+   
+
+}
+
+#imagen-4:hover #t4{
+    margin-top: 70px;
+}
+
+/*
+#Redes div {
+  width: 8em;
+  padding: 2.5em;
+  margin: 0em;
+  background-size: contain;
+}
+
+#Redes a{
+	display: inline;
+	background-color: #343434;
+	background-repeat: no-repeat;
+	background-size: contain;
+	border-radius: 50%;
+    padding: 30px 20px;
+}
+/*imagenes cc https://icon-icons.com/es/
+.email a{
+    background-image:url(../Imagenes/email.png);
+}
+
+.twitter a{
+    background-image:url(../Imagenes/twitter.png);
+}
+
+.youtube a{
+    background-image:url(../Imagenes/youtube.png);
+}
+
+.facebook a{
+    background-image:url(../Imagenes/facebook.png);
+}
+*/
+/*---Menu Lateral---*/
+nav {
+    width: 200px;
+    position: fixed;
+    top: 8em;
+    transform: translateX(-10px);
+    transition: all 350ms;
+    z-index:3;
+}
+/*---ES UTILIZADO PARA LA SECCION DEL NAVEGADOR PARA EL TAMA�O DE LETRA Y TAMA�O DEL RECUADRO ASI COMO EL COLOR---*/
+nav ul li{
+    width: 18em; 
+    height: 28%; 
+    background: #008080;
+        -webkit-transform: skew(-300deg);
+        -moz-transform: skew(-30deg);
+        -ms-transform: skew(-300deg);
+        -o-transform: skew(-300deg);
+    transform: skew(-30deg) translateX(-16em);
+    transition: all 300ms;
+    margin: 10% 0% 0% 0%;
+    padding: 15% 13% 10% 0%;
+    left: 200%;
+    box-shadow: 0px 2px 3px #000000;
+        -moz-box-shadow: 0px 2px 3px #000000;
+        -webkit-box-shadow: 0px 2px 3px #000000;
+
+}
+/*---ES UTILIZADO PARA LA SECCION DEL NAVEGADOR TIPO DE LETRA Y TAMA�O---*/
+nav ul li a {
+    margin: auto;
+    float: right;
+    font-family: califormia;
+    font-size: 1.3em;
+    transform: skew(30deg);
+
+}
+
+nav:hover {
+    transform: translateX(0px);
+    transition: all 300ms;
+}
+
+nav ul li:hover {
+    transform: skew(-30deg) translateX(-50px);
+    transition: all 300ms;
+}
+
+/*---FOOTER---*/
+footer {
+	top: 10em;
+	position: relative;
+    width: 100%;
+    clear: both;
+    background: #008080;
+    text-align: center;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px 20px 0px; 
+    font-family: califormia;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 900px) {
+    #A, #amperson, #H {
+        font-size: 50px;
+    }
+    #subheader H1 {
+        font-size: 35px;
+    }
+    #subheader H3 {
+        font-size: 12px;
+    }
+    #Mision h4, #Vision h4 ,#textoNosotros h4{
+        font-size: 100 px;
+    }
+    #Mision p, #Vision p,#textoNosotros p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #A, #amperson, #H {
+        font-size: 40px;
+    }
+    #subheader H1 {
+        font-size: 25px;
+    }
+    #subheader H3 {
+        font-size: 10px;
+    }
+    #Mision h4, #Vision h4 ,#textoNosotros h4{
+        font-size: 15 px;
+    }
+    #Mision p, #Vision p,#textoNosotros p {
+        font-size: 12px;
+    }
+}

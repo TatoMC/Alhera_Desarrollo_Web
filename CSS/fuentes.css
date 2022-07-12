@@ -1,0 +1,24 @@
+@font-face {
+    font-family: califormia;
+    scr: url(../fuentes/Califormia/CALIFR.TTF);
+}
+
+@font-face {
+    font-family: califormia-bold;
+    scr: url(../fuentes/Califormia/CALIFB.TTF)
+}
+
+@font-face {
+    font-family: califormia-italica;
+    scr: url(../fuentes/Califormia/CALIFI.TTF)
+}
+
+@font-face {
+    font-family: Aureligena;
+    scr: url(../fuentes/Aureligena.ttf)
+}
+
+@font-face {
+    font-family: Beautiful Roses Script;
+    scr: url(../fuentes/Beautiful Roses Script.ttf)
+}
